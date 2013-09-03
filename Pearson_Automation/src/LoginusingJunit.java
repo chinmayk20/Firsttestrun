@@ -36,7 +36,7 @@ public void logintest () {
 	driver.findElement(By.xpath(eXPath)).sendKeys(vUsername);	
 	driver.findElement(By.xpath(eXPath1)).sendKeys(vPassword);
 	driver.findElement(By.xpath(eXPath2)).click ();
-		
+	
 	System.out.println( "Login is Successful");
 }
 
@@ -48,7 +48,6 @@ public void CloseBrowser () {
 	driver.quit();
 	System.out.println( "Closing the Browser");
 }
-
 
 
 }
